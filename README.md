@@ -1,1 +1,1 @@
-A collection of programs tounderstand real time operating systems
+A collection of programs to understand real time operating systems
