@@ -1,0 +1,1 @@
+zephyr_sources_ifdef(CONFIG_HCSR04 hc-sr04.c)

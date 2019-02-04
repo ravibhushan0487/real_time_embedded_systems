@@ -1,0 +1,22 @@
+menuconfig HCSR04
+	bool
+	prompt "HCSR04 Drivers"
+	default n
+	help
+	  Include HCSR04 drivers in system config
+
+config HCSR04_0_NAME
+	string
+	prompt "Driver name"
+	default "HCSR04_0"
+	depends on HCSR04
+	help
+	  Device name with which the HCSR04 sensor 1st Instance is identified.
+
+config HCSR04_1_NAME
+	string
+	prompt "Driver name"
+	default "HCSR04_1"
+	depends on HCSR04
+	help
+	  Device name with which the HCSR04 sensor 1st Instance is identified.

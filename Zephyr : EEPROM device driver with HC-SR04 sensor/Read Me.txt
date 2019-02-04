@@ -1,0 +1,12 @@
+Steps to setup the HCSR app :
+-----------------------------
+1. Copy HCSR_app folder in Zephyr Samples
+2. Copy all the files CMakeList.txt, eeprom_24FC256.c,eeprom_24FC256.h,eeprom_24FC256_defs.h and kconfig present in drivers/flash to zephyr/drivers/flash
+3. Copy the folder hc-sr04 and files CMakeList.txt,kconfig present in drivers/sensor to zephyr/drivers/sensor
+4. Connect pins 1,2,4 of EEPROM to Ground
+5. Connect pins 3 of EEPROM to VCC of 5V
+6. Connect pin 5 to SDA pin
+7. Connect pin 6 to SCL pin
+8. Leave pin 7 floating
+9. Sensor 1 connection : Trigger : GPIO Pin 3, ECHO : GPIO Pin 10
+10. Sensor 2 connection : Trigger : GPIO Pin 2, ECHO : GPIO Pin 12
